@@ -1,0 +1,21 @@
+{
+  "pk": "UPLOAD#u_001",
+  "sk": "ANALYSIS#r_001#v1",
+  "entity_type": "ANALYSIS_RESULT",
+  "upload_id": "u_001",
+  "record_id": "r_001",
+  "analysis_version": 1,
+  "issues": [
+    {
+      "issue_type": "RATE_MISMATCH",
+      "severity": "HIGH",
+      "reasoning": "The billed rate is lower than the agreed contract rate, causing underbilling across the invoiced quantity.",
+      "suggestion": "Update the billed rate to the agreed contract rate and regenerate the invoice.",
+      "confidence_score": 0.97
+    }
+  ],
+  "summary_reasoning": "The record shows a clear rate mismatch resulting in revenue leakage.",
+  "overall_confidence_score": 0.97,
+  "analyzer_type": "RULE_PLUS_LLM",
+  "created_at": "2026-04-01T10:00:07Z"
+}

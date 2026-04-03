@@ -1,0 +1,12 @@
+{
+  "pk": "UPLOAD#u_001",
+  "sk": "META",
+  "entity_type": "UPLOAD",
+  "upload_id": "u_001",
+  "file_name": "sample-billing.csv",
+  "file_type": "csv",
+  "s3_key": "uploads/u_001/sample-billing.csv",
+  "status": "COMPLETED",
+  "record_count": 12,
+  "created_at": "2026-04-01T10:00:00Z"
+}
